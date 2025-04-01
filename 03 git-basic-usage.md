@@ -84,9 +84,35 @@ $ git commit
 
 
 
+# `git remote`
+
+用来管理远程仓库
+
+```shell
+# 添加一个远程仓库, 本地别名为 demo
+git remote add demo https://HERE-IS-THE-REMOTE-REPO-URL
+
+# 查看当前 git repo 关联的 remote
+# 可以带上 -v
+git remote
+```
+
+
+
+# `git fetch`
+
+获取仓库内容
+
+```shell
+git fetch demo
+```
+
+
+
 # `git push`
 
 
 
 # `git pull`
 
+等效于 `git fetch` + `git merge`
