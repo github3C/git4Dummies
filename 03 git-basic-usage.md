@@ -111,8 +111,11 @@ git fetch demo
 
 # `git push`
 
+将本地 repo 的 commit 与远程同步
+
 
 
 # `git pull`
 
-等效于 `git fetch` + `git merge`
+等效于 `git fetch` + `git merge`<sup> *merge* 是 **分支合并** 操作</sup>
+
